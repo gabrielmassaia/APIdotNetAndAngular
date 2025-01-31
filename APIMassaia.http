@@ -1,0 +1,6 @@
+@APIMassaia_HostAddress = http://localhost:5025
+
+GET {{APIMassaia_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

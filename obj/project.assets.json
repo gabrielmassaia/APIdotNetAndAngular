@@ -453,9 +453,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gabriel.massaia\\ApiCsharpAngular\\TestWebApi.csproj",
-      "projectName": "TestWebApi",
-      "projectPath": "C:\\Users\\gabriel.massaia\\ApiCsharpAngular\\TestWebApi.csproj",
+      "projectUniqueName": "C:\\Users\\gabriel.massaia\\ApiCsharpAngular\\APIMassaia.csproj",
+      "projectName": "APIMassaia",
+      "projectPath": "C:\\Users\\gabriel.massaia\\ApiCsharpAngular\\APIMassaia.csproj",
       "packagesPath": "C:\\Users\\gabriel.massaia\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\gabriel.massaia\\ApiCsharpAngular\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,5 +1,7 @@
 
-namespace TestWebApi
+using APIMassaia.Routes;
+
+namespace APIMassaia
 {
     public class Program
     {
@@ -27,10 +29,7 @@ namespace TestWebApi
             app.UseAuthorization();
             app.MapControllers();
 
-            app.MapGet("/testeget", handler:() =>
-            {
-                return "Fala Comigo";
-            });
+            app.MapPessoaRotas();
 
             app.Run();
         }

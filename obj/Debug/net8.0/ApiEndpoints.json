@@ -1,17 +1,17 @@
 [
   {
-    "ContainingType": "TestWebApi.Program\u002B\u003C\u003Ec",
-    "Method": "\u003CMain\u003Eb__0_0",
-    "RelativePath": "testeget",
+    "ContainingType": "APIMassaia.Routes.PessoaRotas\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPessoaRotas\u003Eb__1_0",
+    "RelativePath": "pessoas",
     "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.String",
+        "Type": "System.Collections.Generic.List\u00601[[APIMassaia.Models.Pessoa, APIMassaia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
-          "text/plain"
+          "application/json"
         ],
         "StatusCode": 200
       }
