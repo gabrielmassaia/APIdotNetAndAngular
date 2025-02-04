@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APIMassaia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a32d4e555ce310c259e322f22fd487b0895c8767")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4b4f2f1d2c442d47aa8312494a004e06a3ece03")]
 [assembly: System.Reflection.AssemblyProductAttribute("APIMassaia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APIMassaia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -16,5 +16,78 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "APIMassaia.Routes.PessoaRotas\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPessoaRotas\u003Eb__1_2",
+    "RelativePath": "pessoas",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pessoa",
+        "Type": "APIMassaia.Models.Pessoa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIMassaia.Routes.PessoaRotas\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPessoaRotas\u003Eb__1_3",
+    "RelativePath": "pessoas/{id:guid}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "pessoa",
+        "Type": "APIMassaia.Models.Pessoa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIMassaia.Routes.PessoaRotas\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPessoaRotas\u003Eb__1_1",
+    "RelativePath": "pessoas/{nome}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nome",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIMassaia.Models.Pessoa",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]
